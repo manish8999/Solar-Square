@@ -23,7 +23,7 @@ const Header = () => {
 
                 <nav className="hidden md:flex gap-6 text-black font-medium">
                     <Link to="/">Homes</Link>
-                    <Link to="/society">Housing Society</Link>
+                    <Link to="/housing-society">Housing Society</Link>
                     <Link to="/commercial">Commercial</Link>
                     <Link to="/about">About Us</Link>
                     <Link to="/careers">Careers</Link>
@@ -52,7 +52,7 @@ const Header = () => {
                 <div className="md:hidden px-4 pb-4 bg-white">
                     <nav className="flex flex-col gap-4 font-medium text-black">
                         <Link to="/">Homes</Link>
-                        <Link to="/society">Housing Society</Link>
+                        <Link to="/housing-society">Housing Society</Link>
                         <Link to="/commercial">Commercial</Link>
                         <Link to="/about">About Us</Link>
                         <Link to="/careers">Careers</Link>
